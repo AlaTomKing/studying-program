@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management</title>
+    <link rel="icon" type="image/png" href="../icon.png">
+    <link type="text/css" href="../style.css" rel="stylesheet" />
+    <link type="text/css" href="./multiple-choice.css" rel="stylesheet" />
+    <style>
+        :root {
+            --bg-color: rgb(72, 94, 127);
+            --btn-bg-color: rgb(100, 135, 160);
+            --btn-hover-color: rgb(131, 161, 189);
+            --btn-active-color: rgb(95, 123, 149);
+            --btn-disabled-color: rgb(83, 117, 146);
+            --border-color: rgb(32, 73, 98);
+
+            --checkbox-color: rgb(97, 120, 142);
+            --checkbox-active-color: rgb(74, 103, 129);
+            --checkbox-checked-color: rgb(22, 172, 226);
+            --checkbox-checked-active-color: rgb(49, 131, 169);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">Business Management</div>
+    <a href="index.html">go back</a>
+    <br><br>
+
+    <div id="score">Money: $0</div>
+    <div style="display:flex; gap:4px;"><button id="back" disabled>Back</button><button id="skip">Skip</button><button
+            id="next">Next</button></div>
+    <br>
+
+    <div id="question">...</div>
+
+    <div>
+        <div>
+            <input type="checkbox" id="answer1" name="scales" />
+            <label for="answer1">...</label>
+        </div>
+        <div>
+            <input type="checkbox" id="answer2" name="horns" />
+            <label for="answer2">...</label>
+        </div>
+        <div>
+            <input type="checkbox" id="answer3" name="horns" />
+            <label for="answer3">...</label>
+        </div>
+    </div>
+    <br>
+    <small>Claude generated these questions so they may be inaccurate as hell</small>
+
+    <script src="script.js"></script>
+    <script>
+        fetch("./data/business.json").then(response => response.json()
+        ).then((data) => {
+            run(data);
+        })
+    </script>
+</body>
+
+</html>

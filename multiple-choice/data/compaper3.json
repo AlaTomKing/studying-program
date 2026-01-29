@@ -1,0 +1,542 @@
+[
+    {
+        "q": "What is penetration testing?",
+        "right": [
+            "An authorized attempt to identify security vulnerabilities",
+            "A controlled simulation of real-world cyberattacks",
+            "An ethical hacking process",
+            "A method to evaluate system defenses",
+            "A security assessment technique",
+            "A structured testing activity",
+            "A proactive cybersecurity measure",
+            "A way to assess risk exposure",
+            "A method used before attacks occur",
+            "A tool for improving system security"
+        ],
+        "wrong": [
+            "An illegal hacking activity",
+            "A process to permanently damage systems",
+            "A form of cyber vandalism",
+            "An automated antivirus update",
+            "A backup strategy",
+            "A data encryption method",
+            "A firewall configuration process",
+            "A network installation procedure",
+            "A recovery-only process",
+            "A type of malware"
+        ]
+    },
+    {
+        "q": "What is the main purpose of the PTES framework?",
+        "right": [
+            "To standardize penetration testing procedures",
+            "To provide a structured testing methodology",
+            "To guide ethical hacking activities",
+            "To ensure thorough documentation",
+            "To improve consistency of testing",
+            "To define testing phases",
+            "To support professional reporting",
+            "To reduce testing ambiguity",
+            "To align testing with objectives",
+            "To improve client understanding of risks"
+        ],
+        "wrong": [
+            "To prevent all cyberattacks",
+            "To replace cybersecurity staff",
+            "To automate hacking entirely",
+            "To enforce criminal penalties",
+            "To encrypt hospital data",
+            "To train medical staff",
+            "To manage hospital networks",
+            "To replace security policies",
+            "To eliminate vulnerabilities",
+            "To monitor patients"
+        ]
+    },
+    {
+        "q": "Which PTES phase focuses on defining goals and scope?",
+        "right": [
+            "Pre-engagement interactions",
+            "Initial planning",
+            "Authorization",
+            "Preparation stage",
+            "Scoping",
+            "Agreement",
+            "Collaboration",
+            "Rules definition",
+            "Project setup",
+            "Ethical alignment"
+        ],
+        "wrong": [
+            "Intelligence gathering",
+            "Threat modelling",
+            "Vulnerability analysis",
+            "Exploitation",
+            "Post-exploitation",
+            "Reporting",
+            "Incident response",
+            "Disaster recovery",
+            "Network monitoring",
+            "Patch management"
+        ]
+    },
+    {
+        "q": "Why is scope definition especially important for MTPH?",
+        "right": [
+            "To avoid disrupting critical hospital services",
+            "To protect patient safety",
+            "To prevent unauthorized system access",
+            "To ensure ethical testing",
+            "To comply with healthcare regulations",
+            "To limit testing boundaries",
+            "To prevent data corruption",
+            "To maintain operational continuity",
+            "To protect IoT medical devices",
+            "To reduce legal risk"
+        ],
+        "wrong": [
+            "To hide vulnerabilities",
+            "To speed up hacking",
+            "To bypass authorization",
+            "To avoid reporting",
+            "To reduce security",
+            "To allow unrestricted access",
+            "To disable backups",
+            "To expose patient data",
+            "To remove encryption",
+            "To eliminate documentation"
+        ]
+    },
+    {
+        "q": "What is open-source intelligence (OSINT)?",
+        "right": [
+            "Information gathered from public sources",
+            "Data collected legally",
+            "Information from social media",
+            "Publicly accessible digital data",
+            "Externally available intelligence",
+            "Non-intrusive information gathering",
+            "Pre-attack reconnaissance data",
+            "Information without system access",
+            "Internet-based intelligence",
+            "Public record analysis"
+        ],
+        "wrong": [
+            "Data stolen from databases",
+            "Encrypted hospital files",
+            "Private medical records",
+            "Internal audit reports",
+            "Malware-generated data",
+            "Intercepted communications",
+            "Confidential network traffic",
+            "Password dumps",
+            "Root-level system logs",
+            "Hidden backend data"
+        ]
+    },
+    {
+        "q": "Which activity is an example of OSINT in the case study?",
+        "right": [
+            "Analyzing staff social media profiles",
+            "Reviewing public security policies",
+            "Using search engine dorking",
+            "Identifying exposed portals",
+            "Examining public job postings",
+            "Reviewing press releases",
+            "Studying public DNS records",
+            "Analyzing public IP ranges",
+            "Reviewing online forums",
+            "Collecting public domain data"
+        ],
+        "wrong": [
+            "Installing keyloggers",
+            "Accessing EHR databases",
+            "Intercepting internal emails",
+            "Deploying ransomware",
+            "Privilege escalation",
+            "Brute-force password attacks",
+            "Exploiting buffer overflows",
+            "Modifying network rules",
+            "Accessing IoT firmware",
+            "Extracting confidential backups"
+        ]
+    },
+    {
+        "q": "What is threat modelling?",
+        "right": [
+            "Identifying potential attackers",
+            "Analyzing possible attack methods",
+            "Evaluating system vulnerabilities",
+            "Assessing valuable assets",
+            "Prioritizing security risks",
+            "Understanding attacker motivations",
+            "Mapping threat scenarios",
+            "Guiding security focus",
+            "Estimating potential impact",
+            "Supporting defensive planning"
+        ],
+        "wrong": [
+            "Launching cyberattacks",
+            "Fixing vulnerabilities",
+            "Encrypting data",
+            "Monitoring live traffic",
+            "Writing malware",
+            "Performing backups",
+            "Installing patches",
+            "Configuring firewalls",
+            "Training hospital staff",
+            "Responding to incidents"
+        ]
+    },
+    {
+        "q": "Why are electronic health records high-value targets?",
+        "right": [
+            "They contain sensitive personal data",
+            "They include medical histories",
+            "They can be used for identity theft",
+            "They have financial value",
+            "They impact patient safety",
+            "They are regulated by law",
+            "They require high confidentiality",
+            "They are critical hospital assets",
+            "They affect clinical decisions",
+            "They must maintain integrity"
+        ],
+        "wrong": [
+            "They are publicly available",
+            "They are disposable data",
+            "They have no security requirements",
+            "They cannot be modified",
+            "They do not require authentication",
+            "They are unrelated to patient care",
+            "They are stored offline only",
+            "They are temporary files",
+            "They have no legal importance",
+            "They are entertainment data"
+        ]
+    },
+    {
+        "q": "What is vulnerability analysis?",
+        "right": [
+            "Identifying system weaknesses",
+            "Confirming exploitable flaws",
+            "Evaluating security gaps",
+            "Using automated scanners",
+            "Applying manual testing",
+            "Assessing risk severity",
+            "Understanding exploitability",
+            "Prioritizing vulnerabilities",
+            "Guiding exploitation phase",
+            "Improving security awareness"
+        ],
+        "wrong": [
+            "Stealing data",
+            "Launching denial-of-service attacks",
+            "Encrypting databases",
+            "Monitoring patients",
+            "Writing reports",
+            "Training employees",
+            "Installing hardware",
+            "Configuring IoT devices",
+            "Managing hospital staff",
+            "Responding to breaches"
+        ]
+    },
+    {
+        "q": "Why is ethical authorization essential before testing MTPH?",
+        "right": [
+            "To comply with laws",
+            "To protect patient privacy",
+            "To ensure consent",
+            "To avoid legal consequences",
+            "To maintain trust",
+            "To prevent service disruption",
+            "To define responsibility",
+            "To protect sensitive data",
+            "To uphold professional ethics",
+            "To ensure transparency"
+        ],
+        "wrong": [
+            "To increase attack success",
+            "To hide activities",
+            "To bypass hospital staff",
+            "To avoid documentation",
+            "To enable illegal access",
+            "To reduce accountability",
+            "To allow unrestricted hacking",
+            "To damage systems",
+            "To remove oversight",
+            "To conceal findings"
+        ]
+    },
+    {
+        "q": "What is network scanning?",
+        "right": [
+            "The process of identifying active devices on a network",
+            "A technique to discover open ports",
+            "A method to detect running services",
+            "A way to assess network exposure",
+            "A reconnaissance activity",
+            "A security assessment step",
+            "A technique used before exploitation",
+            "A method to map network assets",
+            "A way to identify reachable hosts",
+            "A preliminary security analysis"
+        ],
+        "wrong": [
+            "Encrypting network traffic",
+            "Backing up network data",
+            "Installing operating systems",
+            "Monitoring patient vitals",
+            "Blocking cyberattacks",
+            "Removing malware",
+            "Configuring firewalls",
+            "Recovering deleted files",
+            "Managing hospital staff",
+            "Replacing network hardware"
+        ]
+    },
+    {
+        "q": "Why is network scanning important during intelligence gathering at MTPH?",
+        "right": [
+            "To identify active medical devices",
+            "To map internal and external servers",
+            "To detect exposed services",
+            "To understand network scope",
+            "To identify potential entry points",
+            "To support threat modelling",
+            "To locate critical systems",
+            "To catalog IP addresses",
+            "To assess attack surface",
+            "To guide vulnerability analysis"
+        ],
+        "wrong": [
+            "To fix security vulnerabilities",
+            "To encrypt patient records",
+            "To disable hospital services",
+            "To replace network infrastructure",
+            "To train hospital staff",
+            "To update operating systems",
+            "To remove user accounts",
+            "To create backups",
+            "To respond to incidents",
+            "To generate compliance certificates"
+        ]
+    },
+    {
+        "q": "What is port scanning?",
+        "right": [
+            "The process of identifying open network ports",
+            "A method to detect listening services",
+            "A network reconnaissance technique",
+            "A way to find exposed applications",
+            "A security assessment activity",
+            "A method to evaluate firewall rules",
+            "A technique to discover vulnerabilities",
+            "A preparatory step before exploitation",
+            "A network exposure analysis",
+            "A method for service enumeration"
+        ],
+        "wrong": [
+            "Encrypting communication channels",
+            "Installing new services",
+            "Monitoring CPU usage",
+            "Blocking network traffic",
+            "Configuring routers",
+            "Repairing network cables",
+            "Updating firmware",
+            "Analyzing patient data",
+            "Running antivirus scans",
+            "Backing up databases"
+        ]
+    },
+    {
+        "q": "What information can OS detection provide?",
+        "right": [
+            "The operating system running on a device",
+            "System version details",
+            "Potential OS-level vulnerabilities",
+            "Device fingerprinting data",
+            "Host configuration insights",
+            "Platform identification",
+            "Attack surface clues",
+            "System compatibility information",
+            "Kernel-level indicators",
+            "Target profiling data"
+        ],
+        "wrong": [
+            "User passwords",
+            "Encryption keys",
+            "Patient medical records",
+            "Internal emails",
+            "Firewall rule sets",
+            "Backup schedules",
+            "Staff credentials",
+            "Physical device locations",
+            "Legal documentation",
+            "Incident response plans"
+        ]
+    },
+    {
+        "q": "What is network topology?",
+        "right": [
+            "The layout of network devices",
+            "The structure of network connections",
+            "The way systems are interconnected",
+            "The mapping of nodes and links",
+            "The organization of network architecture",
+            "The representation of data flow paths",
+            "The relationship between devices",
+            "The arrangement of network infrastructure",
+            "The design of network interconnections",
+            "The visualization of network structure"
+        ],
+        "wrong": [
+            "A network security policy",
+            "A type of encryption",
+            "A malware detection method",
+            "A firewall configuration",
+            "A penetration testing report",
+            "A backup plan",
+            "A software license",
+            "An operating system",
+            "A physical server",
+            "A medical device protocol"
+        ]
+    },
+    {
+        "q": "Why is understanding network topology important for penetration testing?",
+        "right": [
+            "It helps identify critical network paths",
+            "It reveals potential choke points",
+            "It supports attack path analysis",
+            "It aids in privilege escalation planning",
+            "It improves targeting accuracy",
+            "It reveals trust relationships",
+            "It helps avoid service disruption",
+            "It supports impact assessment",
+            "It enables efficient testing",
+            "It informs exploitation strategy"
+        ],
+        "wrong": [
+            "It replaces vulnerability scanning",
+            "It guarantees security",
+            "It eliminates ethical concerns",
+            "It removes the need for authorization",
+            "It automatically patches systems",
+            "It encrypts data",
+            "It blocks all attacks",
+            "It manages hospital workflows",
+            "It monitors patients",
+            "It generates compliance reports"
+        ]
+    },
+    {
+        "q": "What is an IP address?",
+        "right": [
+            "A unique identifier for a network device",
+            "A numerical network address",
+            "A means of routing data",
+            "A logical device identifier",
+            "A component of network communication",
+            "A way to locate devices on a network",
+            "A required element for internet connectivity",
+            "A system-level address",
+            "A network-layer identifier",
+            "A host identification mechanism"
+        ],
+        "wrong": [
+            "A physical cable",
+            "A software application",
+            "A firewall rule",
+            "An encryption algorithm",
+            "A user password",
+            "A backup file",
+            "A server rack",
+            "A medical record",
+            "A network protocol",
+            "An operating system"
+        ]
+    },
+    {
+        "q": "Why must IP addresses of all devices be catalogued at MTPH?",
+        "right": [
+            "To understand the network scope",
+            "To identify all connected devices",
+            "To detect unauthorized devices",
+            "To support network mapping",
+            "To assist vulnerability analysis",
+            "To improve threat modelling",
+            "To identify attack surfaces",
+            "To protect IoT medical devices",
+            "To assess network exposure",
+            "To support incident response planning"
+        ],
+        "wrong": [
+            "To assign patient IDs",
+            "To encrypt medical data",
+            "To configure medical equipment",
+            "To replace security policies",
+            "To train staff",
+            "To perform backups",
+            "To disable firewalls",
+            "To delete unused accounts",
+            "To update operating systems",
+            "To manage hospital schedules"
+        ]
+    },
+    {
+        "q": "What is SQL injection?",
+        "right": [
+            "An attack that manipulates database queries",
+            "A method of exploiting input validation flaws",
+            "A database exploitation technique",
+            "A way to bypass authentication",
+            "A data extraction attack",
+            "A server-side vulnerability exploitation",
+            "A web application attack",
+            "A technique to alter SQL logic",
+            "A common exploitation method",
+            "A risk to database integrity"
+        ],
+        "wrong": [
+            "A network scanning technique",
+            "A password encryption method",
+            "A firewall rule",
+            "A backup strategy",
+            "A logging mechanism",
+            "An operating system exploit",
+            "A hardware failure",
+            "A phishing attack",
+            "A denial-of-service method",
+            "A system patch"
+        ]
+    },
+    {
+        "q": "Why could SQL injection be particularly dangerous for MTPH?",
+        "right": [
+            "It could expose patient records",
+            "It could alter medical data",
+            "It could bypass authentication",
+            "It could compromise EHR databases",
+            "It could impact patient safety",
+            "It could violate privacy laws",
+            "It could enable data exfiltration",
+            "It could disrupt hospital operations",
+            "It could allow privilege escalation",
+            "It could damage data integrity"
+        ],
+        "wrong": [
+            "It only affects client-side graphics",
+            "It cannot impact databases",
+            "It only slows down websites",
+            "It is harmless without malware",
+            "It only affects desktop applications",
+            "It cannot bypass login systems",
+            "It has no legal consequences",
+            "It cannot modify data",
+            "It only affects email servers",
+            "It improves system performance"
+        ]
+    }
+]

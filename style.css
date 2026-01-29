@@ -1,0 +1,89 @@
+:root {
+    --bg-color: rgb(120, 120, 100);
+    --btn-bg-color: rgb(160, 160, 100);
+    --btn-hover-color: rgb(189, 189, 131);
+    --btn-active-color: rgb(142, 142, 84);
+    --btn-disabled-color: rgb(146, 146, 83);
+    --border-color: rgb(80, 80, 30);
+
+    --checkbox-color: rgb(154, 154, 101);
+    --checkbox-active-color: rgb(130, 130, 73);
+    --checkbox-checked-color: rgb(231, 235, 11);
+    --checkbox-checked-active-color: rgb(180, 183, 27);
+
+    --text-wrong: rgb(103, 11, 11);
+    --text-correct: rgb(39, 212, 20);
+}
+
+a {
+    color: rgb(27, 27, 165);
+}
+
+a:visited {
+    color: rgb(61, 14, 148);
+}
+
+a:hover {
+    color: rgb(223, 223, 50);
+}
+
+a:active {
+    color: rgb(255, 119, 0);
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: var(--bg-color);
+    margin-inline: 15vw;
+
+    user-select: none;
+}
+
+button {
+    background-color: var(--btn-bg-color);
+    border: 1px solid var(--border-color);
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+button[disabled] {
+    background-color: var(--btn-disabled-color);
+}
+
+button:not([disabled]):hover {
+    background-color: var(--btn-hover-color);
+    border: 1px solid var(--border-color);
+}
+
+button:not([disabled]):hover:active {
+    background-color: var(--btn-active-color);
+}
+
+input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    background-color: var(--checkbox-color);
+}
+
+input[type="checkbox"]:active:before {
+    background-color: var(--checkbox-active-color);
+}
+
+input[type="checkbox"]:checked:before {
+    background-color: var(--checkbox-checked-color);
+    border: 1px solid var(--border-color);
+}
+
+input[type="checkbox"]:checked:active:before {
+    background-color: var(--checkbox-checked-active-color);
+}
+
+#title {
+    font-size: 24px;
+}
