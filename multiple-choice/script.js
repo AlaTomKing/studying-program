@@ -150,7 +150,7 @@ const run = (txt) => {
             }
             questions[index].answers.push([false, randIndex, false]);
         }
-        shuffleArray(questions[index])
+        shuffleArray(questions[index].answers)
     }
 
     shuffleArray(questions)
