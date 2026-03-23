@@ -1,0 +1,554 @@
+[
+    {
+      "q": "Which of the following statements correctly describe the characteristics and methods of a 'Collection' in IB Pseudocode?",
+      "right": [
+        "It is a dynamic data structure that can grow or shrink in size.",
+        "The .getNext() method returns the next item and moves the pointer forward.",
+        "The .hasNext() method checks if there is another element to read.",
+        "It is often described as an unordered 'bag' of data.",
+        "The .resetNext() method must be called to start reading from the beginning.",
+        "It does not support direct access via an index like [i]."
+      ],
+      "wrong": [
+        "It has a fixed size defined at the start of the program.",
+        "You can use a 'for' loop with an index to access elements.",
+        "The .length() method is used to find the total number of items.",
+        "Items can only be removed from the front of the collection.",
+        "It is a static data structure stored in contiguous memory.",
+        "The .addItem() method requires an index as a parameter."
+      ]
+    },
+    {
+      "q": "Identify the true characteristics and applications of a Stack data structure.",
+      "right": [
+        "It follows the Last-In, First-Out (LIFO) principle.",
+        "The 'pop' operation removes the most recently added item.",
+        "It is used to manage return addresses during sub-routine calls.",
+        "The 'push' operation adds a new element to the top of the stack.",
+        "It is used by web browsers to manage the 'Back' button history.",
+        "A stack overflow occurs if you push to a full stack."
+      ],
+      "wrong": [
+        "It follows the First-In, First-Out (FIFO) principle.",
+        "The 'dequeue' operation is used to remove the top element.",
+        "Items are added to the 'tail' and removed from the 'head'.",
+        "It is the primary structure used for print job buffers.",
+        "Random access allows any element to be removed at any time.",
+        "It is more efficient than an array for searching specific values."
+      ]
+    },
+    {
+      "q": "What are the defining features and use-cases for a Queue data structure?",
+      "right": [
+        "It operates on a First-In, First-Out (FIFO) basis.",
+        "The 'enqueue' operation adds an element to the back (tail).",
+        "The 'dequeue' operation removes an element from the front (head).",
+        "It is used in IO buffers to manage data transfer speeds.",
+        "A printer spooler uses a queue to order documents.",
+        "It maintains the chronological order of data arrival."
+      ],
+      "wrong": [
+        "The last item added is the first one to be removed.",
+        "It uses 'push' and 'pop' as its primary methods.",
+        "It is typically used to implement 'Undo' functionality in software.",
+        "The pointer always resets to the middle of the structure.",
+        "Elements are removed from the tail and added to the head.",
+        "It is a non-linear data structure like a tree."
+      ]
+    },
+    {
+      "q": "In the context of 'Thinking Ahead', what are the requirements and purposes of pre-conditions and post-conditions?",
+      "right": [
+        "Pre-conditions define the state required before a method starts.",
+        "Post-conditions describe the state of the system after execution.",
+        "They help reduce the need for excessive error-checking within code.",
+        "They act as a contract between the programmer and the user.",
+        "Pre-conditions often specify the data types of input parameters.",
+        "Post-conditions ensure the expected output or side effect is achieved."
+      ],
+      "wrong": [
+        "Pre-conditions are only checked while the program is running.",
+        "Post-conditions are used to determine the Big O complexity.",
+        "Pre-conditions are the same as loops and conditional checks.",
+        "They are only necessary for recursive algorithms.",
+        "Post-conditions define the initial values of global variables.",
+        "Setting a pre-condition automatically fixes logical bugs in code."
+      ]
+    },
+    {
+      "q": "Compare the standard Searching and Sorting algorithms (Binary Search, Linear Search, Bubble Sort, Selection Sort).",
+      "right": [
+        "Binary Search requires the data to be sorted beforehand.",
+        "Linear Search has a time complexity that grows linearly with data size.",
+        "Bubble Sort compares adjacent elements and swaps them if needed.",
+        "Selection Sort finds the minimum value and moves it to the start.",
+        "Binary Search is significantly faster than Linear Search for large datasets.",
+        "Bubble Sort is generally considered inefficient for very large lists."
+      ],
+      "wrong": [
+        "Binary Search starts from the first element and checks each one.",
+        "Selection Sort is a 'Divide and Conquer' algorithm.",
+        "Linear Search requires the array to be in alphabetical order.",
+        "Bubble Sort is the most efficient sorting algorithm available.",
+        "Binary Search works by comparing the target to the last element.",
+        "A 2D array cannot be sorted using a Bubble Sort algorithm."
+      ]
+    },
+    {"q": "What are the core principles and benefits of 'Thinking Procedurally' and 'Modularity' in software development?",
+      "right": [
+        "It involves breaking down a complex problem into smaller, manageable sub-problems.",
+        "Sub-programmes (functions/procedures) allow for code reusability across a project.",
+        "It makes debugging easier because errors can be isolated to a single module.",
+        "Modular code is easier to maintain and update without breaking the entire system.",
+        "It allows multiple programmers to work on different parts of a system simultaneously.",
+        "Parameters allow data to be passed into sub-programs to perform specific tasks."
+      ],
+      "wrong": [
+        "It requires all code to be written in a single, continuous main loop.",
+        "Thinking procedurally means the code can only run in a linear, top-down fashion.",
+        "Using sub-programmes significantly increases the total memory usage of an app.",
+        "Global variables are preferred over parameters to keep modules connected.",
+        "Modularity is only useful for projects that exceed 10,000 lines of code.",
+        "It eliminates the need for documenting code since each part is small."
+      ]
+    },
+    {
+      "q": "Which of the following are true regarding the manipulation and structure of 2D Arrays (Matrices) in IB CS?",
+      "right": [
+        "A 2D array can be visualized as a table with rows and columns.",
+        "Nested loops (a loop inside another loop) are used to traverse all elements.",
+        "The element at row 2, column 3 is typically accessed via DATA[2][3].",
+        "They are static data structures with a fixed number of rows and columns.",
+        "A 2D array can store a grid for a game, like Tic-Tac-Toe or Minesweeper.",
+        "Data in a 2D array must usually be of the same data type."
+      ],
+      "wrong": [
+        "You can add new columns to a 2D array dynamically during runtime.",
+        "The .getNext() method is the standard way to navigate a 2D array.",
+        "A 2D array is a non-linear data structure, similar to a linked list.",
+        "Rows and columns must always have the same number of elements (square).",
+        "The outer loop always represents the columns in every programming language.",
+        "They use less memory than a Collection because they don't store pointers."
+      ]
+    },
+    {
+      "q": "Identify the logical requirements and characteristics of 'Thinking Logically' and 'Decision Making' in algorithms.",
+      "right": [
+        "Selection statements (IF-THEN-ELSE) allow for branching paths in logic.",
+        "Boolean operators (AND, OR, NOT) are used to evaluate complex conditions.",
+        "Decision making is often based on the comparison of variables or constants.",
+        "Iteration (loops) can be controlled by a boolean condition (WHILE loops).",
+        "Truth tables can be used to verify the logic of a complex conditional statement.",
+        "Algorithms must account for 'edge cases' where input data is at the limit."
+      ],
+      "wrong": [
+        "An 'ELSE' statement can exist without an 'IF' statement.",
+        "Logical decisions are only made at the very start of an algorithm.",
+        "An 'AND' operation returns true if at least one of the conditions is met.",
+        "Thinking logically prevents the need for any iterative structures.",
+        "Nested 'IF' statements are considered a syntax error in IB pseudocode.",
+        "The 'NOT' operator flips a boolean value from true to true."
+      ]
+    },
+    {
+      "q": "What are the specific requirements for a Binary Search to function correctly and efficiently?",
+      "right": [
+        "The array must be sorted in ascending or descending order first.",
+        "It uses a 'Divide and Conquer' approach by halving the search area.",
+        "It compares the target value to the middle element of the current range.",
+        "It is much more efficient than a Linear Search for large datasets.",
+        "The variables 'low', 'high', and 'mid' are commonly used to track indices.",
+        "If the target is smaller than the middle, the search continues in the left half."
+      ],
+      "wrong": [
+        "It starts the search from the first index and moves one by one.",
+        "Binary search can only be performed on Collections using .getNext().",
+        "It is the best choice for searching an unsorted list of names.",
+        "It will always find the target in fewer than three steps.",
+        "The middle element is calculated by adding the target value to the length.",
+        "It requires a 2D array to map the data points correctly."
+      ]
+    },
+    {
+      "q": "In the context of 'Thinking Concurrently', what does this concept involve in a computing environment?",
+      "right": [
+        "It involves managing multiple tasks that start, run, and complete in overlapping time periods.",
+        "A common example is a web server handling multiple user requests at once.",
+        "It can lead to faster execution if the hardware has multiple processor cores.",
+        "It requires careful management of shared resources to avoid 'deadlocks'.",
+        "Operating systems use concurrency to run background tasks while a user works.",
+        "It involves breaking a task into sub-tasks that can be processed independently."
+      ],
+      "wrong": [
+        "It means the computer performs only one instruction at a time, very quickly.",
+        "Concurrency is only possible on computers with a single-core CPU.",
+        "It guarantees that every task will finish at exactly the same microsecond.",
+        "It removes the need for an Operating System's scheduler.",
+        "Concurrency and Parallelism are exactly the same concept in all contexts.",
+        "A standard 'FOR' loop is the primary tool for implementing concurrency."
+      ]
+    },
+    {
+      "q": "When creating and using 'Trace Tables' to test an algorithm, what are the essential rules?",
+      "right": [
+        "Every variable in the algorithm should have its own column in the table.",
+        "A new row is used whenever a variable's value changes.",
+        "It is used to track the state of an algorithm line-by-line.",
+        "The 'Output' column records any data displayed to the user.",
+        "It is an effective way to find 'Logic Errors' that don't crash the program.",
+        "The initial values of variables should be recorded in the first data row."
+      ],
+      "wrong": [
+        "A trace table is only used for code that contains syntax errors.",
+        "You only need to record the final values of the variables.",
+        "Trace tables are generated automatically by the compiler during execution.",
+        "Loops should be skipped in a trace table to save space.",
+        "The table must include the physical memory address of each variable.",
+        "Variables that don't change their value should be left out of the table."
+      ]
+    },
+
+    {
+      "q": "What are the specific operational steps and characteristics of the Selection Sort algorithm?",
+      "right": [
+        "It divides the list into a sorted and an unsorted sub-list.",
+        "In each pass, it finds the smallest element in the unsorted sub-list.",
+        "The identified minimum element is swapped with the first element of the unsorted part.",
+        "After each pass, the sorted sub-list grows by exactly one element.",
+        "It performs $N-1$ passes to fully sort a list of $N$ items.",
+        "It is generally more efficient than Bubble Sort because it performs fewer swaps."
+      ],
+      "wrong": [
+        "It compares every element to a 'pivot' value to split the list.",
+        "It repeatedly swaps adjacent elements if they are in the wrong order.",
+        "It is a recursive 'Divide and Conquer' algorithm like Merge Sort.",
+        "It requires a secondary temporary array to hold the sorted values.",
+        "The algorithm stops early if no swaps are made during a pass.",
+        "It can only be used on numerical data, not on strings or characters."
+      ]
+    },
+    {
+      "q": "Which of the following are standard rules and symbols used in Flowcharts for algorithm design?",
+      "right": [
+        "Rectangles are used to represent processes or internal operations.",
+        "Diamonds are used for decision points with 'Yes/No' or 'True/False' exits.",
+        "Parallelograms represent Input and Output (I/O) operations.",
+        "Arrows indicate the 'flow of control' or direction of execution.",
+        "Ovals or 'pill' shapes are used to mark the Start and End of the algorithm.",
+        "Every decision diamond must have at least two outgoing flow lines."
+      ],
+      "wrong": [
+        "Triangles are used to represent the start of a loop structure.",
+        "Circles are used to indicate where a variable is declared.",
+        "A rectangle can have three or more exit arrows based on a condition.",
+        "Flowlines can cross each other without any specific meaning.",
+        "Input operations must always be placed inside a diamond symbol.",
+        "A flowchart cannot contain a loop that goes back to a previous step."
+      ]
+    },
+    {
+      "q": "In computer programming, what are the differences between Global and Local variables?",
+      "right": [
+        "Local variables are declared inside a sub-programme and exist only there.",
+        "Global variables are accessible from any part of the entire program.",
+        "A local variable is destroyed (deleted from memory) once the function ends.",
+        "Using local variables helps prevent accidental data changes in other modules.",
+        "Global variables can lead to 'side effects' that make debugging difficult.",
+        "Two different functions can use the same local variable name without conflict."
+      ],
+      "wrong": [
+        "Local variables can be accessed by any function in the program.",
+        "Global variables use less memory than local variables.",
+        "A global variable is only created when a specific function is called.",
+        "IB Pseudocode requires all variables to be global for efficiency.",
+        "Local variables must be declared at the very top of the main programme.",
+        "Changing a local variable automatically updates all global variables."
+      ]
+    },
+    {
+      "q": "Which statements correctly describe the passing of Parameters and the use of Return values?",
+      "right": [
+        "Parameters allow a sub-programme to receive data from the calling code.",
+        "A 'Return' statement sends a result back to the part of the code that called it.",
+        "Functions typically return a value, while procedures (sub-routines) may not.",
+        "Arguments are the actual values passed into a parameter when a function runs.",
+        "Passing by value means a copy of the data is sent, protecting the original.",
+        "Parameters make sub-programmes more flexible and reusable."
+      ],
+      "wrong": [
+        "A function can return up to ten different values simultaneously.",
+        "Parameters can only be used to pass integer data types.",
+        "Once a value is returned, the sub-programme continues to run in the background.",
+        "You must use a global variable to get a result out of a function.",
+        "The name of the argument must be identical to the name of the parameter.",
+        "Parameters are only required if the sub-programme contains a loop."
+      ]
+    },
+    {
+      "q": "What is the logic behind the Bubble Sort algorithm during its execution?",
+      "right": [
+        "It compares pairs of adjacent elements throughout the list.",
+        "In an ascending sort, the largest element 'bubbles' to the end in the first pass.",
+        "It uses a 'swapped' flag to check if the list is already sorted.",
+        "The number of elements to be compared decreases by one after each pass.",
+        "It requires nested loops: one for passes and one for comparisons.",
+        "It is simple to implement but inefficient for large datasets."
+      ],
+      "wrong": [
+        "It selects the smallest item and moves it to the front immediately.",
+        "It halves the array size with every comparison to save time.",
+        "It only works if the number of elements is an even number.",
+        "It is the fastest sorting algorithm for lists with millions of items.",
+        "Items are moved to their correct position in a single pass.",
+        "It uses a 'pointer' that can only move backward through the array."
+      ]
+    },
+    {
+      "q": "Identify the standard features of 'Thinking Abstractly' in the context of problem-solving.",
+      "right": [
+        "It involves removing unnecessary details to focus on important characteristics.",
+        "It allows a designer to create a model of a real-world system.",
+        "Using a variable name like 'PRICE' instead of a memory address is an abstraction.",
+        "It helps in identifying patterns that can be applied to different problems.",
+        "In a map, the scale and symbols are abstractions of the actual terrain.",
+        "Abstraction reduces complexity for the programmer and the end user."
+      ],
+      "wrong": [
+        "It means making the code as complex and detailed as possible.",
+        "It involves focusing on the specific hardware brand being used.",
+        "Abstraction is only useful when writing code in Machine Language (Binary).",
+        "It prevents the use of sub-programmes or modularity.",
+        "Thinking abstractly is the same as 'Thinking Concurrently'.",
+        "It requires the programmer to explain every line of code to the user."
+      ]
+    },
+
+    {
+      "q": "What are the characteristics and differences between Syntax, Logic, and Runtime errors?",
+      "right": [
+        "Syntax errors occur when the code violates the grammar rules of the language.",
+        "Logic errors allow the program to run but produce incorrect or unexpected results.",
+        "Runtime errors occur while the program is executing, often crashing it.",
+        "A missing bracket or semicolon is a classic example of a syntax error.",
+        "Dividing a number by zero usually triggers a runtime error.",
+        "Logic errors are the most difficult to find because the compiler doesn't flag them."
+      ],
+      "wrong": [
+        "A syntax error is only discovered after the program has been fully executed.",
+        "Logic errors prevent the source code from being compiled into machine code.",
+        "Runtime errors are caused by incorrect variable naming conventions.",
+        "All logic errors are automatically corrected by the operating system.",
+        "Syntax errors occur when the user enters the wrong password.",
+        "A runtime error is another name for a 'Thinking Abstractly' failure."
+      ]
+    },
+    {
+      "q": "Identify the standard features of 'Pre-test' (WHILE) vs 'Post-test' (LOOP UNTIL) loops.",
+      "right": [
+        "A WHILE loop checks the condition before executing the loop body.",
+        "A LOOP UNTIL loop always executes its body at least once.",
+        "A WHILE loop may never execute if the initial condition is false.",
+        "Post-test loops check the condition after the code block has run.",
+        "In a WHILE loop, the condition must be true for the loop to continue.",
+        "In a LOOP UNTIL, the loop stops as soon as the condition becomes true."
+      ],
+      "wrong": [
+        "A WHILE loop is a post-test structure used for fixed iterations.",
+        "LOOP UNTIL is the only loop that can access a 2D array.",
+        "Pre-test loops are less efficient because they require more memory.",
+        "A WHILE loop must always run at least 10 times before stopping.",
+        "The condition in a post-test loop is checked before the variables are initialized.",
+        "A LOOP UNTIL loop can never result in an infinite loop."
+      ]
+    },
+    {
+      "q": "What are the fundamental data types used in IB Pseudocode and their purposes?",
+      "right": [
+        "Integer is used for whole numbers without decimal points.",
+        "Real (or Float) is used for numbers that contain fractional parts.",
+        "Boolean represents only two possible states: True or False.",
+        "String is a collection of characters used for text data.",
+        "Char is used to store a single character, like 'A' or '$'.",
+        "Arrays are used to store multiple items of the same data type under one name."
+      ],
+      "wrong": [
+        "The Boolean type is used to store large decimal values.",
+        "An Integer can store the text 'Hello World' if it is short.",
+        "A String data type can only be used for numerical calculations.",
+        "The Real data type is used only for storing dates and times.",
+        "A Char data type can store a whole paragraph of text.",
+        "Collections are the only way to store Integer data types in IB."
+      ]
+    },
+    {
+      "q": "In algorithm design, what is the purpose and logic of using a 'Temporary' (temp) variable?",
+      "right": [
+        "It is essential for swapping the values of two variables.",
+        "It prevents data loss when overwriting one variable with another.",
+        "It acts as a 'holding bay' during a swap operation.",
+        "It is commonly used inside the inner loop of a Bubble Sort.",
+        "It allows a value to be 'backed up' before a calculation changes it.",
+        "Without it, setting A = B would result in the original value of A being lost."
+      ],
+      "wrong": [
+        "A temp variable is required to start any WHILE loop.",
+        "It is used to permanently store data in the hard drive.",
+        "Temp variables are only used in recursive algorithms.",
+        "Using a temp variable increases the Big O complexity of an algorithm.",
+        "The IB requires all temp variables to be named 'TEMP_VAR_01'.",
+        "A temp variable is a special type of hardware register in the CPU."
+      ]
+    },
+    {
+      "q": "What are the common strategies for finding the Maximum or Minimum value in an array?",
+      "right": [
+        "Initialize the 'MAX' variable to the value of the first element in the array.",
+        "Iterate through the array starting from the second element.",
+        "Compare each element to the current 'MAX' value.",
+        "If the current element is greater than 'MAX', update 'MAX' with that element.",
+        "This algorithm uses a single loop, making it a linear time operation.",
+        "It works for both numerical data and alphabetical strings."
+      ],
+      "wrong": [
+        "Initialize 'MAX' to 0, even if the array contains negative numbers.",
+        "The array must be sorted before you can find the maximum value.",
+        "You must use a nested loop to compare every element with every other element.",
+        "The maximum value is always found at index [0].",
+        "A Collection must be used instead of an array to find a minimum value.",
+        "Finding a minimum value requires the use of a Stack data structure."
+      ]
+    },
+    {
+      "q": "Which of the following are benefits of using 'Sub-programmes' (Methods/Functions)?",
+      "right": [
+        "They promote code reusability by allowing the same logic to be called multiple times.",
+        "They improve readability by giving a name to a specific block of logic.",
+        "They make debugging easier by isolating specific tasks into modules.",
+        "They allow different programmers to work on different parts of a system.",
+        "They reduce the overall size of the code by eliminating redundancy.",
+        "They can be tested independently before being integrated into the main program."
+      ],
+      "wrong": [
+        "They make the code run faster because the CPU skips the main loop.",
+        "Using sub-programmes removes the need for any variables.",
+        "They are only used in languages that do not support loops.",
+        "A sub-programme cannot contain an IF statement.",
+        "They are used to hide the source code from the compiler.",
+        "Every sub-programme must be at least 50 lines long."
+      ]
+    },
+    {
+      "q": "What are 'Sentinel Values' and how are they used in programming?",
+      "right": [
+        "A sentinel value is a specific value used to signal the end of a data stream.",
+        "It is often used in loops where the number of inputs is not known in advance.",
+        "The value chosen must be one that cannot be confused with legitimate data.",
+        "For a list of positive ages, -1 might be used as a sentinel value.",
+        "The loop checks for the sentinel value in its condition to decide when to stop.",
+        "It prevents the program from reading past the end of a file or input."
+      ],
+      "wrong": [
+        "A sentinel value is the same as the index of an array.",
+        "It is used to store the largest number found in a search.",
+        "Sentinel values are required for every FOR loop in IB pseudocode.",
+        "It is a value that is automatically generated by the operating system.",
+        "The sentinel value is always the number 0.",
+        "It is used to encrypt data before it is sent over a network."
+      ]
+    },
+    {
+      "q": "When 'Thinking Logically', how do Boolean Operators (AND, OR, NOT) function?",
+      "right": [
+        "AND returns true only if both conditions being compared are true.",
+        "OR returns true if at least one of the conditions is true.",
+        "NOT reverses the logic; True becomes False and vice versa.",
+        "They are used to create complex conditions in IF statements.",
+        "In pseudocode, brackets can be used to define the order of logical evaluation.",
+        "An expression like (X > 5 AND X < 10) checks if X is between 6 and 9."
+      ],
+      "wrong": [
+        "The AND operator returns true if either condition is true.",
+        "The NOT operator is used to skip the next line of code.",
+        "Logical operators can only be used with Integer data types.",
+        "OR returns false if both conditions are true.",
+        "Using AND twice in a row will crash the program.",
+        "Logical operators are only evaluated during the compilation phase."
+      ]
+    },
+    {
+      "q": "What are the key differences between Static and Dynamic data structures?",
+      "right": [
+        "Static structures (like Arrays) have a fixed size determined at compile time.",
+        "Dynamic structures (like Collections) can grow or shrink during execution.",
+        "Static structures are usually more memory-efficient if the size is known.",
+        "Dynamic structures use pointers to link data elements together.",
+        "An Array is a static structure; a Linked List or Collection is dynamic.",
+        "Static structures allow for faster 'random access' via an index."
+      ],
+      "wrong": [
+        "Static structures can only store text, while dynamic can store numbers.",
+        "Dynamic structures are always stored in the CPU cache.",
+        "A static structure is one that cannot be changed once the program starts.",
+        "Dynamic structures do not require any memory to be allocated.",
+        "You cannot use a loop to traverse a static data structure.",
+        "The IB only allows the use of dynamic structures in Paper 1."
+      ]
+    },
+    {
+      "q": "What is the purpose of the 'Modulo' (%) and 'Integer Division' (div) operators?",
+      "right": [
+        "Modulo returns the remainder of a division (e.g., 10 % 3 = 1).",
+        "Integer Division returns only the whole number part of a division (e.g., 10 div 3 = 3).",
+        "Modulo is commonly used to check if a number is even or odd (X % 2 == 0).",
+        "Integer Division is useful for converting total minutes into hours.",
+        "They are essential for algorithms involving base conversion or cycles.",
+        "Modulo can be used to keep an array index within bounds (cycling)."
+      ],
+      "wrong": [
+        "Modulo is used to calculate the square root of a number.",
+        "Integer Division always returns a Real (decimal) number.",
+        "Modulo only works with negative numbers in IB Pseudocode.",
+        "Integer Division is the same as the standard '/' division symbol.",
+        "Using modulo on a string will reverse the characters.",
+        "These operators can only be used inside the 'Thinking Ahead' phase."
+      ]
+    },
+    {
+        "q": "Identify characteristics of 'Internal Documentation' in program development.",
+        "right": [
+            "It consists of comments written inside the source code.",
+            "It explains the purpose of complex logic or specific variables.",
+            "It helps other programmers understand and maintain the code.",
+            "It is ignored by the compiler and does not affect performance.",
+            "It includes meaningful variable names that clarify the code's intent.",
+            "It provides information about the author and the date of last update."
+        ],
+        "wrong": [
+            "It is a printed manual given to the end-user of the software.",
+            "It is used to store the program's passwords securely.",
+            "Internal documentation makes the compiled program run slower.",
+            "It is only required for code that contains errors.",
+            "It is written in Binary so the computer can understand it.",
+            "It replaces the need for writing actual code logic."
+        ]
+    },
+    {
+        "q": "What are the rules for 'Variable Naming' (Identifiers) in good programming practice?",
+        "right": [
+            "Names should be descriptive of the data they hold (e.g., 'studentName').",
+            "They should follow a consistent convention like camelCase or snake_case.",
+            "Names cannot usually start with a number.",
+            "Reserved keywords (like 'IF' or 'WHILE') cannot be used as names.",
+            "They should not contain spaces or special characters like '!'.",
+            "Consistency in naming makes the code easier for others to read."
+        ],
+        "wrong": [
+            "Variables should always be named with a single letter to save memory.",
+            "Every variable must start with an uppercase letter in IB pseudocode.",
+            "Spaces are allowed in variable names if they are inside quotes.",
+            "You should change the variable name every time its value changes.",
+            "Mathematical symbols like '+' can be used inside a variable name.",
+            "The compiler uses the length of the name to determine its data type."
+        ]
+    }
+  ]
